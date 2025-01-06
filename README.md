@@ -1,0 +1,3 @@
+# Firebase Asynchronous Data Access Error
+This repository demonstrates a common error in Firebase applications: attempting to access data before an asynchronous operation, such as fetching data from a Firestore collection, has completed.  The example code showcases how trying to access undefined fields can cause unexpected crashes or errors.
+The solution demonstrates proper error handling and ensuring data availability before accessing fields.
